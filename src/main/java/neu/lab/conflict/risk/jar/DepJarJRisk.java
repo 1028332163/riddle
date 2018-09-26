@@ -126,7 +126,6 @@ public class DepJarJRisk {
 			//keep first is self
 			classpaths.addAll(this.depJar.getJarFilePaths(true));
 			classpaths.addAll(this.depJar.getFatherJarCps(false));
-			
 		}
 		
 //		MavenUtil.i().getLog().info("classpath for "+this.toString());
